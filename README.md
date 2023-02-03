@@ -29,14 +29,7 @@ cd dispatch
 3. Fix the configuration files.
 - Game servers are very important to set up, make sure you haven't left that out yet. Just enter the connection credentials to your self-hosted game servers in the `config.json` file.
 
-4. Install dependencies and load the database schemas into your own database.
-- Prisma will perform schema compilation and will create indexes to your MongoDB database.
-
 ```powershell
 npm install --save-dev
-npm run generateSchema
-```
-
-```powershell
 npm run start
 ```
