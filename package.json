@@ -9,7 +9,6 @@
   ],
   "license": "ISC",
   "scripts": {
-    "protocompile": "npx protoc --proto_path schemas --ts_out schemas --ts_opt output_typescript ServiceProtocolBuffers.proto",
     "debug": "rm -rf build/ && tsc && node --inspect build/src/index.js",
     "start-dev": "ts-node-dev src/index.ts --respawn --transpile-only",
     "start": "rm -rf build && tsc && node build/src/index.js",
